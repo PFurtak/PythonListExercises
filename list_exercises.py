@@ -49,7 +49,7 @@ print('\n')
 
 # Given a list, remove duplicates and print the new list
 de_dup_one = [5, 5, 2, 2, 3, 3, 4, 4]
-de_dup_two = set([5, 5, 2, 2, 3, 3, 4, 4])
+de_dup_two = set(de_dup_one)
 print("Here is the list ", de_dup_one, " with duplicates removed. ")
 print('\n')
 print(de_dup_two)
